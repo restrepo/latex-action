@@ -1,0 +1,11 @@
+- name: Github Actions for build LaTeX and release pdf
+  uses: MaineK00n/latex-actions@v0.0.1
+  with:
+    # github root_tex. this is require when comment is true.
+    root: # default is 
+    # github token. this is require when comment is true.
+    token: # default is 
+    # github repository name. this is require when comment is true.
+    repository: # default is 
+    # release pdf name. this is require when comment is true.
+    pdf_name: # default is 
